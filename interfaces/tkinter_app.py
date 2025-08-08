@@ -1,4 +1,3 @@
-# interfaces/tkinter_app.py
 import tkinter as tk
 from core.faq_engine import get_answer
 
