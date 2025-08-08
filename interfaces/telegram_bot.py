@@ -1,11 +1,9 @@
-# interfaces/telegram_bot.py
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 from core.faq_engine import get_answer
 import asyncio
 
-# ATENÇÃO: este código usa aiogram v2 API (import simples). Se estiver usando aiogram v3,
-# ajuste a API de acordo.
+# ATENÇÃO: este código usa aiogram v2 API
 
 bot_instance = None
 
