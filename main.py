@@ -1,7 +1,3 @@
-# main.py
-# Script para iniciar os módulos que desejar. Substitua os tokens por variáveis de ambiente
-# ou preencha diretamente (não recomendado em produção).
-
 import threading
 import os
 from interfaces import tkinter_app, flask_app

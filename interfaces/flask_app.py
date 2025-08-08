@@ -1,4 +1,3 @@
- interfaces/flask_app.py
 from flask import Flask, request, render_template_string
 from core.faq_engine import get_answer
 
