@@ -1,4 +1,3 @@
-# core/faq_data.py
 # Base simples de perguntas e respostas (pode ser trocada por DB ou arquivo JSON)
 faq = {
     "qual o melhor jogo de 2024": "The Legend of Zelda: Tears of the Kingdom.",
