@@ -1,4 +1,3 @@
-# core/faq_engine.py
 from .faq_data import faq, keywords_map
 
 def normalize(text: str) -> str:
