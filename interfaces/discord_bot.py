@@ -18,12 +18,10 @@ async def faq_cmd(ctx, *, pergunta: str = None):
     resposta = get_answer(pergunta)
     await ctx.send(resposta)
 
-# função de inicialização para ser chamada externamente
 def start_discord(token: str):
     bot.run(token)
 
-# Exemplo: se quiser rodar este arquivo direto (não recomendado com threads que chamam run)
-if __name__ == "__main__":
+#if __name__ == "__main__":
     import os
     token = os.getenv("DISCORD_TOKEN") or "SEU_TOKEN_DISCORD"
     start_discord(token)

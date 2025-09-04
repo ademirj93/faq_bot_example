@@ -4,12 +4,14 @@ from core.faq_engine import get_answer
 def start_tkinter():
     root = tk.Tk()
     root.title("FAQ Jogos - Desktop")
-    root.geometry("480x300")
+    root.geometry("600x500")
 
     frame = tk.Frame(root, padx=12, pady=12)
     frame.pack(fill="both", expand=True)
 
     tk.Label(frame, text="Pergunta:").pack(anchor="w")
+    tk.Label(frame, text="Perguntas programadas:").pack(anchor="w")
+    tk.Label(frame, text="qual o melhor jogo de 2024 , quando sai gta 6, quais plataformas recomendadas").pack(anchor="w")
     pergunta_entry = tk.Entry(frame, width=60)
     pergunta_entry.pack(fill="x")
 

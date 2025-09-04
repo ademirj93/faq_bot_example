@@ -8,6 +8,7 @@ TEMPLATE = """
 <title>FAQ Jogos</title>
 <h1>FAQ — Jogos</h1>
 <form method=post>
+  <h2>Perguntas programadas: qual o melhor jogo de 2024 , quando sai gta 6, quais plataformas recomendadas</h2>
   <input name=pergunta placeholder="Digite sua pergunta" style="width:60%">
   <button type=submit>Responder</button>
 </form>
